@@ -3,6 +3,10 @@ baseurl = "https://aux1r.github.io/aux1rblog/"
 languageCode = "en-us"
 title="aux1r"
 
+relativeURLs = true
+canonifyURLs = true
+
+
 # Social media links
 [params]
   [params.social]
