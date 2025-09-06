@@ -3,9 +3,6 @@ baseurl = "https://aux1r.github.io/aux1rblog/"
 languageCode = "en-us"
 title="aux1r"
 
-relativeURLs = true
-canonifyURLs = true
-
 
 # Social media links
 [params]
@@ -22,16 +19,16 @@ canonifyURLs = true
 # Main menu
 [[menus.main]]
 name = 'Home'
-pageRef = '/'
+url = '/'
 weight = 10
 title = "aux1r"
 
 [[menus.main]]
 name = 'Posts'
-pageRef = '/posts'  
+url = '/posts'  
 weight = 20
 
 [[menus.main]]
 name = 'About'
-pageRef = '/about/'
+url = '/about/'
 weight = 40
