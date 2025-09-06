@@ -10,7 +10,11 @@ title="aux1r"
     email = "kacszymansk@gmail.com"
   [params.avatar]
     url = "https://media.licdn.com/dms/image/v2/D4E03AQFfwfQO6TNOPA/profile-displayphoto-shrink_400_400/B4EZRFxSSSHEAk-/0/1736337336553?e=1759968000&v=beta&t=gnaHz5HXlK3HjoWsGARQRO5xa7mOWav_Y6YLwxo2c0A"
-    
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Main menu
 [[menus.main]]
 name = 'Home'
