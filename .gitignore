@@ -1,0 +1,7 @@
+node_modules/*
+themes/*
+public/*
+
+hugo.exe
+hugo.linux
+hugo.darwin

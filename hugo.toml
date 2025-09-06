@@ -1,0 +1,29 @@
+theme = "void"
+baseurl = "/"
+languageCode = "en-us"
+title="aux1r"
+
+# Social media links
+[params]
+  [params.social]
+    github = "https://github.com/aux1r"
+    email = "kacszymansk@gmail.com"
+  [params.avatar]
+    url = "https://media.licdn.com/dms/image/v2/D4E03AQFfwfQO6TNOPA/profile-displayphoto-shrink_400_400/B4EZRFxSSSHEAk-/0/1736337336553?e=1759968000&v=beta&t=gnaHz5HXlK3HjoWsGARQRO5xa7mOWav_Y6YLwxo2c0A"
+    
+# Main menu
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+title = "aux1r"
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'  
+weight = 20
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about/'
+weight = 40
